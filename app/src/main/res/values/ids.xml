@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="parent_tab_layout" type="id"/>
+    <item name="content_frame" type="id"/>
+
+    <!-- some ids for lists nad recycler views -->
+
+    <!-- list_item is primarily used by ListItemViewHolder to extract the view on wich to set texts and icon-->
+    <item name="list_item" type="id"/>
+
+    <!--
+     these ids are used by classes implementing IconLabelView (or interfaces derived from it)
+     to properly find the views that hold the primary,secondary nd extra TextViews,
+     as well as the ImageView for hte icon
+    -->
+    <item name="icon" type="id"/>
+    <item name="text" type="id"/>
+    <item name="secondary_text" type="id"/>
+    <item name="extra_text" type="id"/>
+
+    <!-- ids used by RecyclerView and RecyclerView.Adapter -->
+    <item name="recycler_view" type="id"/>
+    <item name="recycler_view_header" type="id"/>
+    <item name="recycler_view_first_row" type="id"/>
+    <item name="recycler_view_last_row" type="id"/>
+    <item name="recycler_view_footer" type="id"/>
+    <item name="recycler_view_last_item" type="id"/>
+    <item name="recycler_view_grouped_items_decoration" type="id"/>
+    <item name="recycler_view_item_decoration" type="id"/>
+
+</resources>
+

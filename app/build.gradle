@@ -121,6 +121,7 @@ dependencies {
     testCompile "org.robolectric:robolectric:3.0"
     testCompile "org.robolectric:shadows-support-v4:3.0"
 
+    compile 'com.google.code.findbugs:jsr305:2.0.1'
 }
 
 

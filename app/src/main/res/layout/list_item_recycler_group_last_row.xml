@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/default_container_background"
+    android:clickable="true"
+    android:elevation="0dp">
+
+    <FrameLayout
+        android:id="@id/recycler_view_last_row"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/base_spacing_unit_min"
+        android:background="@color/default_content_background"
+        android:clickable="true"
+        android:elevation="@dimen/cardview_default_elevation"
+        />
+
+</FrameLayout>
